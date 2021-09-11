@@ -1,5 +1,5 @@
 # Loading Inventory and Converting it to Dictionary
-fd = open('record.json','r')
+fd = open('records.json','r')
 t = fd.read()
 fd.close()
 dct = json.loads(t)
